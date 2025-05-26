@@ -1,0 +1,24 @@
+# Ignorar archivos de compilación en todos los proyectos
+**/bin/
+**/build/
+**/out/
+**/target/
+
+# Ignorar dependencias y archivos de IDEs en todos los proyectos
+**/.mvn/
+**/.gradle/
+**/.idea/
+**/*.iml
+**/.vscode/
+**/.project
+**/.classpath
+**/.settings/
+
+# Ignorar archivos comunes
+*.class
+*.log
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.env
